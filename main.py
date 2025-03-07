@@ -1,9 +1,13 @@
+"""
+https://t.me/Hansaka_Anuhas
+"""
+
 import requests
 from flask import Flask, request
 from os import environ
 
-TOKEN = "7760117749:AAEx0P5e6SQvlAcK5k1XQsjQooB_j3d-VVQ"
-WEBHOOK_URL = "https://u78j9-52f7aaceeb3a.herokuapp.com/webhook"
+TOKEN = "<replace_bot_token>"
+WEBHOOK_URL = "<replace_server_link>/webhook"
 
 app = Flask(__name__)
 
