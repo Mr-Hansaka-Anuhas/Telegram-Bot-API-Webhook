@@ -17,6 +17,7 @@ def set_webhook():
 @app.route("/webhook", methods=["POST"])
 def webhook():
     update = request.json
+    print(update)
     if "message" in update:
         chat_id = update["message"]["chat"]["id"]
         text = update["message"]["text"]
